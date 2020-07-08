@@ -14,7 +14,17 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ng9-validation": [
+        "dist/ng9-validation/ng9-validation",
+        "dist/ng9-validation"
+      ],
+      "standard": [
+        "dist/standard/standard",
+        "dist/standard"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

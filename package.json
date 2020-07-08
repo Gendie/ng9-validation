@@ -1,15 +1,17 @@
 {
-  "name": "ng9-validation",
+  "name": "ng9-validation-project",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start:demo": "ng serve ng9-validation-demo -o",
     "build": "ng build",
+    "build:install": "ng build && npm uninstall ng9-validation && npm install file:./dist/ng9-validation",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "~9.1.11",
     "@angular/common": "~9.1.11",
@@ -19,11 +21,14 @@
     "@angular/platform-browser": "~9.1.11",
     "@angular/platform-browser-dynamic": "~9.1.11",
     "@angular/router": "~9.1.11",
+    "ng9-validation": "file:dist/ng9-validation",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
+    "@angular-devkit/build-angular": "~0.901.10",
+    "@angular-devkit/build-ng-packagr": "~0.901.10",
     "@angular/cli": "~9.1.10",
     "@angular/compiler-cli": "~9.1.11",
     "@types/node": "^12.11.1",
@@ -37,6 +42,7 @@
     "karma-coverage-istanbul-reporter": "~2.1.0",
     "karma-jasmine": "~3.0.1",
     "karma-jasmine-html-reporter": "^1.4.2",
+    "ng-packagr": "^9.0.0",
     "protractor": "~7.0.0",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
