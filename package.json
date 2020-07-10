@@ -4,13 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "start:demo": "ng serve ng9-validation-demo -o",
     "build": "ng build",
     "build:prod": "ng build --configuration=production",
-    "build:install": "ng build && npm uninstall ng9-validation && npm install file:./dist/ng9-validation",
     "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "lint": "ng lint"
   },
   "private": false,
   "dependencies": {
@@ -27,6 +24,21 @@
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gendie/ng9-validation.git"
+  },
+  "keywords": [
+    "angular9",
+    "validate",
+    "validation"
+  ],
+  "license": "MIT",
+  "author": "Gendy <mohammad.algendy.me@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/Gendie/ng9-validation/issues"
+  },
+  "homepage": "https://github.com/Gendie/ng9-validation#readme",
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.901.10",
     "@angular-devkit/build-ng-packagr": "~0.901.10",
