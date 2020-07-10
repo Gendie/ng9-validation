@@ -27,6 +27,12 @@
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
   },
+  "keywords": [
+    "angular9",
+    "validate",
+    "validation"
+  ],
+  "license": "MIT",
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.901.10",
     "@angular-devkit/build-ng-packagr": "~0.901.10",
