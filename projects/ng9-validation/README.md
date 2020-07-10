@@ -1,24 +1,23 @@
-# Ng9Validation
+# Description
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.11.
+Angular9+ custom validation.
 
-## Code scaffolding
+## The source code used in this package is copied from [ng2-validation](https://www.npmjs.com/package/ng9-validation) package but built to work for Angular 9 projects
 
-Run `ng generate component component-name --project ng9-validation` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ng9-validation`.
-> Note: Don't forget to add `--project ng9-validation` or else it will be added to the default project in your `angular.json` file. 
+# Dependencies
 
-## Build
+| ng9-validation| Angular       |
+| ------------- |:-------------:|
+| 2.x.x         | 9.0.0         |
 
-Run `ng build ng9-validation` to build the project. The build artifacts will be stored in the `dist/` directory.
+For order versions of Angular (2.x.x -> 8.x.x) use [ng2-validation](https://www.npmjs.com/package/ng2-validation)
 
-## Publishing
+# Install
 
-After building your library with `ng build ng9-validation`, go to the dist folder `cd dist/ng9-validation` and run `npm publish`.
+```bash
+npm install ng9-validation --save
+```
 
-## Running unit tests
+# Usage
 
-Run `ng test ng9-validation` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Check the **Validators** and **Usage** sections of this package [ng2-validation](https://www.npmjs.com/package/ng2-validation).

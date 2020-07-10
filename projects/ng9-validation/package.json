@@ -1,11 +1,26 @@
 {
   "name": "ng9-validation",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "peerDependencies": {
     "@angular/common": "^9.1.11",
     "@angular/core": "^9.1.11"
   },
   "dependencies": {
     "tslib": "^1.10.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gendie/ng9-validation.git"
+  },
+  "keywords": [
+    "angular9",
+    "validate",
+    "validation"
+  ],
+  "license": "MIT",
+  "author": "Gendy <mohammad.algendy.me@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/Gendie/ng9-validation/issues"
+  },
+  "homepage": "https://github.com/Gendie/ng9-validation#readme",
 }
