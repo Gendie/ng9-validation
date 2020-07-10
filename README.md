@@ -11,7 +11,7 @@ Angular9+ custom validation.
 | ------------- |:-------------:|
 | 2.x.x         | 9.0.0         |
 
-For order versions of Angular (2.x.x -> 8.x.x) use [ng2-validation](https://www.npmjs.com/package/ng9-validation)
+For order versions of Angular (2.x.x -> 8.x.x) use [ng2-validation](https://www.npmjs.com/package/ng2-validation)
 
 
 # Install
@@ -21,4 +21,4 @@ For order versions of Angular (2.x.x -> 8.x.x) use [ng2-validation](https://www.
 
 # Usage
 
-Check the usage section of this package [ng2-validation](https://www.npmjs.com/package/ng9-validation).
+Check the **Validators** and **Usage** sections of this package [ng2-validation](https://www.npmjs.com/package/ng2-validation).
