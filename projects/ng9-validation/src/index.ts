@@ -117,4 +117,4 @@ const CUSTOM_FORM_DIRECTIVES = [
     ],
     exports: [CUSTOM_FORM_DIRECTIVES]
 })
-export class CustomValidatorsModule { }
+export class CustomFormsModule { }

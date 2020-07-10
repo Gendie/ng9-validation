@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { CustomValidatorsModule } from "ng9-validation";
+import { CustomFormsModule } from "ng9-validation";
 // import { TestdirModule } from './testdir/testdir.module';
 // import { StandardModule } from 'standard';
 
@@ -15,7 +15,7 @@ import { CustomValidatorsModule } from "ng9-validation";
   imports: [
     BrowserModule,
     FormsModule,
-    CustomValidatorsModule
+    CustomFormsModule
     // CustomValidatorsModule,//CustomFormsModule,
     // TestdirModule
   ],
