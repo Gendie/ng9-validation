@@ -1,6 +1,6 @@
 {
   "name": "ng9-validation",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "peerDependencies": {
     "@angular/common": "^9.1.11",
     "@angular/core": "^9.1.11"
@@ -22,5 +22,5 @@
   "bugs": {
     "url": "https://github.com/Gendie/ng9-validation/issues"
   },
-  "homepage": "https://github.com/Gendie/ng9-validation#readme",
+  "homepage": "https://github.com/Gendie/ng9-validation#readme"
 }
