@@ -29,7 +29,9 @@
     "url": "git+https://github.com/Gendie/ng9-validation.git"
   },
   "keywords": [
+    "angular",
     "angular9",
+    "custom",
     "validate",
     "validation"
   ],

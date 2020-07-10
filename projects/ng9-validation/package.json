@@ -1,6 +1,6 @@
 {
   "name": "ng9-validation",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "peerDependencies": {
     "@angular/common": "^9.1.11",
     "@angular/core": "^9.1.11"
@@ -13,7 +13,9 @@
     "url": "git+https://github.com/Gendie/ng9-validation.git"
   },
   "keywords": [
+    "angular",
     "angular9",
+    "custom",
     "validate",
     "validation"
   ],
