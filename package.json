@@ -4,13 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "start:demo": "ng serve ng9-validation-demo -o",
     "build": "ng build",
     "build:prod": "ng build --configuration=production",
-    "build:install": "ng build && npm uninstall ng9-validation && npm install file:./dist/ng9-validation",
     "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "lint": "ng lint"
   },
   "private": false,
   "dependencies": {
