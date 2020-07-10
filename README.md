@@ -2,12 +2,20 @@
 
 Angular9+ custom validation.
 
-## Install
+## The source code used in this package is copied from [ng2-validation](https://www.npmjs.com/package/ng9-validation) package but built to work for Angular 9 projects
+
+# Dependencies
+
+| ng9-validation| Angular       |
+| ------------- |:-------------:|
+| 2.x.x         | 9.0.0         |
+
+For order versions of Angular (2.x.x -> 8.x.x) use [ng2-validation](https://www.npmjs.com/package/ng9-validation)
+
+# Install
 
 `npm install ng9-validation --save`
 
-### The source code used in this package is copied from [ng2-validation](https://www.npmjs.com/package/ng9-validation) package but built to work for Angular 9 projects
-
-## Usage
+# Usage
 
 Check the usage section of this package [ng2-validation](https://www.npmjs.com/package/ng9-validation).
