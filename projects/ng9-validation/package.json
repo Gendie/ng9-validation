@@ -1,11 +1,12 @@
 {
   "name": "ng9-validation",
-  "version": "2.0.6",
+  "version": "2.1.0",
   "peerDependencies": {
     "@angular/common": "^9.1.11",
     "@angular/core": "^9.1.11"
   },
   "dependencies": {
+    "libphonenumber-js": "^1.7.54",
     "tslib": "^1.10.0"
   },
   "repository": {
@@ -15,6 +16,7 @@
   "keywords": [
     "angular",
     "angular9",
+    "angular 9",
     "custom",
     "validate",
     "validation"
