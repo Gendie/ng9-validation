@@ -1,0 +1,219 @@
+<section class="example">
+
+    <h4>rangeLength - [5, 9]</h4>
+
+    <input type="text" [(ngModel)]="model.rangeLength" name="rangeLength" #rangeLength="ngModel" [rangeLength]="[5, 9]" />
+    <p *ngIf="rangeLength.errors?.rangeLength" class="error">error message</p>
+
+</section>
+
+<section class="example">
+
+    <h4>min - 10</h4>
+
+    <input type="number" [(ngModel)]="model.min" name="min" #min="ngModel" [min]="10" />
+    <p *ngIf="min.errors?.min">error message</p>
+
+</section>
+
+<section class="example">
+
+    <h4>gt - 10</h4>
+
+    <input type="number" [(ngModel)]="model.gt" name="gt" #gt="ngModel" [gt]="10" />
+    <p *ngIf="gt.errors?.gt">error message</p>
+
+</section>
+
+<section class="example">
+
+    <h4>gte - 10</h4>
+
+    <input type="number" [(ngModel)]="model.gte" name="gte" #gte="ngModel" [gte]="10" />
+    <p *ngIf="gte.errors?.gte">error message</p>
+
+</section>
+
+<section class="example">
+
+    <h4>max - 20</h4>
+
+    <input type="number" [(ngModel)]="model.max" name="max" #max="ngModel" [max]="20" />
+    <p *ngIf="max.errors?.max">error message</p>
+
+</section>
+
+<section class="example">
+
+    <h4>lt - 20</h4>
+
+    <input type="number" [(ngModel)]="model.lt" name="lt" #lt="ngModel" [lt]="20" />
+    <p *ngIf="lt.errors?.lt">error message</p>
+
+</section>
+
+<section class="example">
+
+    <h4>lte - 20</h4>
+
+    <input type="number" [(ngModel)]="model.lte" name="lte" #lte="ngModel" [lte]="20" />
+    <p *ngIf="lte.errors?.lte">error message</p>
+
+</section>
+
+<section class="example">
+
+    <h4>range - [10, 20]</h4>
+
+    <input type="number" [(ngModel)]="model.range" name="range" #range="ngModel" [range]="[10, 20]" />
+    <p *ngIf="range.errors?.range">error message</p>
+
+</section>
+
+<section class="example">
+
+    <h4>digits</h4>
+
+    <input type="text" [(ngModel)]="model.digits" name="digits" #digits="ngModel" digits />
+    <p *ngIf="digits.errors?.digits">error message</p>
+
+</section>
+
+<section class="example">
+
+    <h4>number</h4>
+
+    <input type="text" [(ngModel)]="model.number" name="number" #number="ngModel" number />
+    <p *ngIf="number.errors?.number">error message</p>
+
+</section>
+
+<section class="example">
+
+    <h4>url</h4>
+
+    <input type="text" [(ngModel)]="model.url" name="url" #url="ngModel" url />
+    <p *ngIf="url.errors?.url">error message</p>
+
+</section>
+
+<section class="example">
+
+    <h4>email</h4>
+
+    <input type="text" [(ngModel)]="model.email" name="email" #email="ngModel" email />
+    <p *ngIf="email.errors?.email">error message</p>
+
+</section>
+
+<section class="example">
+
+    <h4>date</h4>
+
+    <input type="text" [(ngModel)]="model.date" name="date" #date="ngModel" date />
+    <p *ngIf="date.errors?.date">error message</p>
+
+</section>
+
+<section class="example">
+
+    <h4>minDate - 2016-09-09</h4>
+
+    <input type="text" [(ngModel)]="model.maxDate" name="maxDate" #maxDate="ngModel" maxDate="2016-09-09" />
+    <p *ngIf="maxDate.errors?.maxDate">error message</p>
+
+</section>
+
+<section class="example">
+
+    <h4>dateISO</h4>
+
+    <input type="text" [(ngModel)]="model.dateISO" name="dateISO" #dateISO="ngModel" dateISO />
+    <p *ngIf="dateISO.errors?.dateISO">error message</p>
+
+</section>
+
+<section class="example">
+
+    <h4>creditCard</h4>
+
+    <input type="text" [(ngModel)]="model.creditCard" name="creditCard" #creditCard="ngModel" creditCard />
+    <p *ngIf="creditCard.errors?.creditCard">error message</p>
+
+</section>
+
+<section class="example">
+
+    <h4>json</h4>
+
+    <input type="text" [(ngModel)]="model.json" name="json" #json="ngModel" json />
+    <p *ngIf="json.errors?.json">error message</p>
+
+</section>
+
+<section class="example">
+
+    <h4>base64</h4>
+
+    <input type="text" [(ngModel)]="model.base64" name="base64" #base64="ngModel" base64 />
+    <p *ngIf="base64.errors?.base64">error message</p>
+
+</section>
+
+<section class="example">
+
+    <h4>phone - CN</h4>
+
+    <input type="text" [(ngModel)]="model.phone" name="phone" #phone="ngModel" phone="CN" />
+    <p *ngIf="phone.errors?.phone">error message</p>
+
+</section>
+
+<section class="example">
+
+    <h4>uuid - 'all'</h4>
+
+    <input type="text" [(ngModel)]="model.uuid" name="uuid" #uuid="ngModel" [uuid]="'all'" />
+    <p *ngIf="uuid.errors?.uuid">error message</p>
+
+</section>
+
+<section class="example">
+
+    <h4>equal - 'xxx'</h4>
+
+    <input type="text" [(ngModel)]="model.equal" name="equal" #equal="ngModel" [equal]="'xxx'" />
+    <p *ngIf="equal.errors?.equal">error message</p>
+
+</section>
+
+<section class="example">
+
+    <h4>noEqual - 'xxx'</h4>
+
+    <input type="text" [(ngModel)]="model.notEqual" name="notEqual" #notEqual="ngModel" [notEqual]="'xxx'" />
+    <p *ngIf="notEqual.errors?.notEqual">error message</p>
+
+</section>
+
+<section class="example">
+
+    <h4>equalTo</h4>
+
+    <input type="password" ngModel name="password1" #password1="ngModel" required />
+    <p *ngIf="password1.errors?.required">required error</p>
+    <input type="password" ngModel name="certainPassword1" #certainPassword1="ngModel" [equalTo]="password1" />
+    <p *ngIf="certainPassword1.errors?.equalTo">equalTo error</p>
+
+</section>
+
+<section class="example">
+
+    <h4>notEqualTo</h4>
+
+    <input type="text" ngModel name="password2" #password2="ngModel" required />
+    <p *ngIf="password2.errors?.required">required error</p>
+    <input type="password" ngModel name="certainPassword2" #certainPassword2="ngModel" [notEqualTo]="password2" />
+    <p *ngIf="certainPassword2.errors?.equalTo">equalTo error</p>
+
+</section>

@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+.example {
+    padding: 20px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+h4 {
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono,
+        Courier New, monospace, serif;
+}
+
+.example .wrapper {
+    display: inline-block;
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+}
+
+.example .wrapper .snippet {
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono,
+        Courier New, monospace, serif;
+    overflow: auto;
+    width: auto;
+    padding: 0 50px;
+}
+
+input {
+    padding: 5px;
+    width: 300px;
+}
+
+.error {
+    padding: 7px;
+    border-radius: 5px;
+    color: #721c;
+    background: #f8d7da;
+    border-color: #f5c6cb;
+    width: 300px;
+}
