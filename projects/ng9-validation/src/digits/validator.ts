@@ -6,5 +6,5 @@ export const digits: ValidatorFn = (control: AbstractControl): {[key: string]: b
   if (isPresent(Validators.required(control))) return null;
 
   let v: string = control.value;
-  return /^\d+$/.test(v) ? null : {digits: true};
+  return /^-{0,1}\d+$/.test(v) ? null : {digits: true};
 };
