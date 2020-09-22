@@ -11,6 +11,8 @@ import { DateISOValidator } from './date-ios/directive';
 import { dateISO } from './date-ios/validator';
 import { DigitsValidator } from './digits/directive';
 import { digits } from './digits/validator';
+import { IntegerValidator } from './integer/directive';
+import { integer } from './integer/validator';
 import { EmailValidator } from './email/directive';
 import { email } from './email/validator';
 import { EqualValidator } from './equal/directive';
@@ -58,6 +60,7 @@ export const CustomValidators = {
     date,
     dateISO,
     digits,
+    integer,
     email,
     equal,
     equalTo,
@@ -86,6 +89,7 @@ const CUSTOM_FORM_DIRECTIVES = [
     DateValidator,
     DateISOValidator,
     DigitsValidator,
+    IntegerValidator,
     EmailValidator,
     EqualValidator,
     EqualToValidator,
